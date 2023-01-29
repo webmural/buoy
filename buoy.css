@@ -1,0 +1,82 @@
+html {
+  font-family: sans-serif;
+  font-size: max(3ch, 6vmax);
+  line-height: 1.618;
+}
+
+body {
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+article {
+  box-sizing: border-box;
+  padding: 3ch;
+}
+
+p {
+  min-width: 50vw;
+}
+
+p:last-child {
+  clear: both;
+  letter-spacing: 1vw;
+}
+
+h1 {
+  float: left;
+  font-size: 1.618em;
+  margin-inline-end: 1ch;
+}
+
+h2 {
+  float: right;
+  margin-inline-start: 1ch;
+  font-size: 1.618em;
+  font-weight: inherit;
+}
+
+h3 {
+  float: left;
+  margin-inline-end: 1ch;
+  font-family: fantasy;
+  font-size: 1.382em;
+  font-weight: inherit;
+}
+
+h4 {
+  float: right;
+  margin-inline-start: 1ch;
+  font-family: cursive;
+  font-size: 1.382em;
+  font-weight: inherit;
+}
+
+h5 {
+  float: left;
+  margin-inline-end: 1em;
+  font-size: 1.236em;
+  font-weight: inherit;
+  font-family: monospace;
+}
+
+h6 {
+  float: right;
+  margin-inline-start: 1em;
+  font-family: fantasy;
+  font-size: 1.236em;
+  font-weight: inherit;
+}
+
+:any-link {
+  text-decoration-style: wavy;
+}
+
+:focus {
+  outline-style: outset;
+  outline-width: thick;
+}
+
+:hover {
+  text-decoration-style: double;
+}
