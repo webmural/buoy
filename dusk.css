@@ -1,16 +1,20 @@
 ::selection {
-  background: orange;
+  background: skyblue;
   color: indigo;
 }
 
 :root {
-  background: #111;
-  color: violet;
+  background: indigo;
+  color: lightsalmon;
 }
 
 :any-link {
-  background: darkorange;
+  background: lightsalmon;
   color: indigo;
+}
+
+:focus {
+  outline-color: seashell;
 }
 
 mark {
