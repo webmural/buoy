@@ -68,16 +68,23 @@ h6 {
   font-weight: inherit;
 }
 
-:any-link {
+mark {
+  border-radius: 1ch;
+  display: inline-flex;
+}
+
+a {
+  border-radius: 1ch;
+  display: inline-flex;
   text-decoration-style: wavy;
 }
 
 :focus {
-  text-decoration-style: solid;
+  text-decoration-style: dotted;
   outline-style: outset;
-  outline-width: thick;
+  outline-width: 1ch;
 }
 
 :hover {
-  text-decoration-style: double;
+  text-decoration-style: solid;
 }
