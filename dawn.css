@@ -13,6 +13,10 @@
   color: indigo;
 }
 
+:focus {
+  outline-color: purple;
+}
+
 mark {
   background: orange;
   color: indigo;

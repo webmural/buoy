@@ -73,6 +73,7 @@ h6 {
 }
 
 :focus {
+  text-decoration-style: solid;
   outline-style: outset;
   outline-width: thick;
 }
